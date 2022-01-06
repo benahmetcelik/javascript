@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>JavaScript Print Section</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <div class="navbar">
+        <ul class="navbar-container">
+            <!--Full Page Print Button-->
+            <li><a href="javascript:void(0);" onclick="printFullPage();"
+                    class="left-underline nav-button brand-logo">Print Full Page</a></li>
+            <li class="nav-item">
+                <!--Section 3 Print Button-->
+                <a href="javascript:void(0);" onclick="printSection('section3');" class="left-underline nav-button"
+                    data-scroll>Print S3</a>
+            </li>
+            <!--Section 2 Print Button-->
+            <li class="nav-item"><a href="javascript:void(0);" onclick="printSection('section2');"
+                    class="left-underline nav-button" data-scroll>Print S2</a></li>
+            <!--Section 1 Print Button-->
+            <li class="nav-item active"><a href="javascript:void(0);" onclick="printSection('section1');"
+                    class="left-underline nav-button">Print S1</a></li>
+        </ul>
+    </div>
+    <div id="section1">
+        <div class="parallax p1">
+            <hgroup>
+                <h1>Hello.</h1>
+                <h2>I’m a startup.</h2>
+            </hgroup>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <h1>First Section Col1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus maximus quam et dignissim.
+                    Praesent felis arcu, euismod et ullamcorper ut, condimentum ut ante. Vestibulum vel libero commodo,
+                    aliquam libero eu, gravida arcu. Proin scelerisque faucibus ligula quis efficitur. Donec at
+                    sollicitudin purus, suscipit tempus augue. Sed imperdiet volutpat sapien at hendrerit. Mauris
+                    egestas ex a quam tincidunt gravida. Quisque interdum tempor lacinia. Nulla eget varius purus.
+                    Integer non sollicitudin dui. Phasellus sem turpis, maximus in auctor vulputate, porta id nunc.</p>
+            </div>
+            <div class="col-3">
+                <h1>First Section Col2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet est id leo facilisis,
+                    quis egestas erat vehicula. Aenean nec facilisis leo, et tristique lorem. Aliquam porttitor, elit ac
+                    ornare lacinia, sapien augue sagittis dolor, tempor ultricies lorem arcu et ante. Nulla facilisi.
+                    Praesent facilisis lacus at blandit maximus. Ut at libero nisi. Cras eu augue tellus. Nam pretium
+                    eget nisi non viverra. Maecenas eget tincidunt nibh, vitae interdum dolor.</p>
+            </div>
+            <div class="col-3">
+                <h1>First Section Col3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac nibh dolor. Cras rutrum molestie
+                    ligula posuere hendrerit. Donec luctus vitae elit in gravida. Duis in viverra nunc. Nunc et metus
+                    blandit, blandit quam in, laoreet mi. In vitae mauris sit amet tellus dictum rhoncus malesuada non
+                    arcu. Ut lacus lacus, dignissim at commodo id, dapibus sed felis. Cras in nunc id est lobortis
+                    euismod. Sed egestas nulla et augue sagittis lacinia. Quisque finibus bibendum risus, vitae accumsan
+                    ante mollis ac. Aliquam fermentum, mauris eu gravida dictum, tortor risus finibus nibh, in tincidunt
+                    velit tortor vehicula mi.</p>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="parallax p2">
+            <hgroup>
+                <h1>Well</h1>
+                <h2>This is some bold info!</h2>
+            </hgroup>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <h1>First Section Col1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus maximus quam et dignissim.
+                    Praesent felis arcu, euismod et ullamcorper ut, condimentum ut ante. Vestibulum vel libero commodo,
+                    aliquam libero eu, gravida arcu. Proin scelerisque faucibus ligula quis efficitur. Donec at
+                    sollicitudin purus, suscipit tempus augue. Sed imperdiet volutpat sapien at hendrerit. Mauris
+                    egestas ex a quam tincidunt gravida. Quisque interdum tempor lacinia. Nulla eget varius purus.
+                    Integer non sollicitudin dui. Phasellus sem turpis, maximus in auctor vulputate, porta id nunc.</p>
+            </div>
+            <div class="col-3">
+                <h1>First Section Col2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet est id leo facilisis,
+                    quis egestas erat vehicula. Aenean nec facilisis leo, et tristique lorem. Aliquam porttitor, elit ac
+                    ornare lacinia, sapien augue sagittis dolor, tempor ultricies lorem arcu et ante. Nulla facilisi.
+                    Praesent facilisis lacus at blandit maximus. Ut at libero nisi. Cras eu augue tellus. Nam pretium
+                    eget nisi non viverra. Maecenas eget tincidunt nibh, vitae interdum dolor.</p>
+            </div>
+            <div class="col-3">
+                <h1>First Section Col3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac nibh dolor. Cras rutrum molestie
+                    ligula posuere hendrerit. Donec luctus vitae elit in gravida. Duis in viverra nunc. Nunc et metus
+                    blandit, blandit quam in, laoreet mi. In vitae mauris sit amet tellus dictum rhoncus malesuada non
+                    arcu. Ut lacus lacus, dignissim at commodo id, dapibus sed felis. Cras in nunc id est lobortis
+                    euismod. Sed egestas nulla et augue sagittis lacinia. Quisque finibus bibendum risus, vitae accumsan
+                    ante mollis ac. Aliquam fermentum, mauris eu gravida dictum, tortor risus finibus nibh, in tincidunt
+                    velit tortor vehicula mi.</p>
+            </div>
+        </div>
+        <div class="parallax p3">
+            <hgroup>
+                <h1>Well</h1>
+                <h2>This is some bold info!</h2>
+            </hgroup>
+        </div>
+    </div>
+    <footer id="section3">
+        <div class="row">
+            <div class="col-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum interdum tortor ac dui malesuada,
+                    id molestie elit aliquam. Fusce laoreet nisl id tellus molestie mattis. Fusce vitae ante quis augue
+                    imperdiet rutrum a vitae purus. Etiam tincidunt enim id turpis varius, in condimentum elit.</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2011-2015 uplusion23, All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
