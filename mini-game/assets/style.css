@@ -1,0 +1,75 @@
+/*
+.body{
+    background-color: black;
+
+   
+    
+    
+}
+
+
+#lens{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 150px;
+    width:150px;
+    background:rgb(255, 123, 0);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 30px 1px #222236ad;
+}
+
+
+#light{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 250px;
+    width:250px;
+    background:rgba(255, 255, 255, 0.486);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 30px 1px #222236ad;
+}
+
+*/
+/* Flashlight Overlay */
+
+.bg {
+    /* The image used */
+    background-image: url('area.jpg');
+    cursor: url('flashlight.png'), auto;	
+    /* Full height */
+    height: 100vh; 
+    min-width: 10%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+:root {
+  cursor: pointer, auto;	
+   
+    --cursorX: 70vw;
+    --cursorY: 70vh;
+  }
+  :root:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 10vmax at var(--cursorX) var(--cursorY),
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,.5) 80%,
+      rgba(0,0,0,.95) 100%
+    )
+  }
+
+
+
